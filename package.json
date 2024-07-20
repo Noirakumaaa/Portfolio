@@ -1,0 +1,14 @@
+{
+  "name": "nathanportfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "author": "Nathaniel Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.12.4"
+  }
+}
