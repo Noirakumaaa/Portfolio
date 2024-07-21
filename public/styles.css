@@ -238,10 +238,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 1rem;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 1;
     font-style: normal;
 }
 
@@ -262,6 +262,12 @@ button:hover {
     .main-container {
         padding: 1rem;
     }
+}
+
+.profile-image {
+    border-radius: 70%;
+    height: 10rem;
+    width: 10rem;
 }
 
 
