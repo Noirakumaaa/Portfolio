@@ -403,13 +403,17 @@ button:hover {
         width: 50%;
         height: 100%;
         padding: 1.2rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
       }
     
       .about-image {
         padding: 5rem;
         height: 100%;
         width: 50%;
+      }
+      .project-cointainer {
+        font-size: 0.8rem;
+        font-weight: 1;
       }
 }
 
@@ -491,6 +495,18 @@ button:hover {
         height: 100%;
         width: 50%;
       }
+      .project-cointainer {
+        height: 40rem;
+        font-size: 0.6rem;
+      }
+      .robobloom {
+        height: 13rem;
+      }
+
+      .anita {
+
+        height: 15rem;
+      }
 }
 
 
@@ -504,7 +520,7 @@ button:hover {
         overflow: hidden; /* Prevent overflow within the nav-container */
       }
       .nav-title {
-        margin-right: 5rem;
+        margin-right: 3rem;
         font-size: 1rem;
       }
       .nav-link-items {
@@ -568,6 +584,20 @@ button:hover {
         padding: 5rem;
         height: 100%;
         width: 50%;
+      }
+
+      .project-cointainer {
+        height: 30rem;  
+        font-size: 0.4rem;
+        font-weight: 1;
+      }
+      .robobloom {
+        height: 5rem;
+      }
+
+      .anita {
+
+        height: 10rem;
       }
   }
   
