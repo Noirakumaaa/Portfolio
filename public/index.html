@@ -1,80 +1,153 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Welcome to Firebase Hosting</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/10.12.4/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/10.12.4/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.12.4/firebase-performance-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-database-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-firestore-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-messaging-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-storage-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-remote-config-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/10.12.4/firebase-performance-compat.js"
+    ></script>
     <!-- 
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
   </head>
+
   <body>
     <div class="nav-container">
       <h1 class="nav-title">Nathan</h1>
-      <li class="nav-items"><a class="nav-link-items" href="#index">Home</a></li>
-      <li class="nav-items"><a class="nav-link-items" href="#about">About</a></li>
+      <li class="nav-items">
+        <a class="nav-link-items" href="#index">Home</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link-items" href="#about">About</a>
+      </li>
       <li class="nav-items"><a class="nav-link-items" href="#">Contacts</a></li>
       <li class="nav-items"><a class="nav-link-items" href="#">Projects</a></li>
     </div>
+    <div class="cointainer">
+      <div class="main-container" id="index">
+        <div class="main-description">
+          <h1>Hi,Im Nathaniel Hernandez</h1>
+          <h5>
+            Aspiring Junior Developer | Back-End Developer | Web Developer
+            Enthusiast
+          </h5>
 
-    <div class="main-container" id="index">
-      <div class="main-description">
-        <h1>Hi,Im Nathaniel Hernandez</h1>
-        <h5>Aspiring Junior Developer | Back-End Developer | Web Developer Enthusiast</h5>
-       
-      <button  class="button-19">Email</button>
-      </div>
-      <div class="main-image">
-        <img src="img/homepic.jpg" alt="Description of image" width="280" height="420">
-      </div>
-    </div>
-    <div class="about-container" id="about">
-      <div class="about-image">
-        <img src="img/anitaevent2.png" alt="Description of image" width="330" height="250" id="image1">
-        <img src="img/Anitaevent.jpg" alt="Description of image" width="330" height="250" id="image2">
-        <img src="img/robothinks.jpg" alt="Description of image" width="330" height="250" id="image3">
-      </div>
-      <div class="about-description">
-        <image src="img/profile.jpg" lt="Description of image" width="330" height="250" class="profile-image"></image>
-        <br><br>
-        <h3>Hello, my name is <b>Nathaniel Hernandez</b>.</h3> 
-        <br>
-          <h5> I am a back-end developer currently pursuing a Bachelor of Computer Science at ICCT Colleges. 
-            I have a strong foundation in programming and am a fast learner who adapts quickly to new technologies. 
-            I have intermediate skills in languages such as C++, Python, and web development, 
-            and I can work with databases.</h5>
-          <br>
-          <h5>I am passionate about building an applications and other software projects. 
-            I actively participate in competitions to test my skills and knowledge, 
-            and I attend events to expand my expertise and network.</h5>
+          <button class="button-19">Email</button>
         </div>
+        <div class="main-image-container">
+          <div class="main-image">
+            <img
+              src="img/homepic.jpg"
+              alt="Description of image"
+              width="280"
+              height="420"
+            />
+          </div>
+          </div>
+      </div>
+      <div class="about-container" id="about">
+        <div class="about-image">
+          <img
+            src="img/anitaevent2.png"
+            alt="Description of image"
+            width="330"
+            height="250"
+            id="image1"
+          />
+          <img
+            src="img/Anitaevent.jpg"
+            alt="Description of image"
+            width="330"
+            height="250"
+            id="image2"
+          />
+          <img
+            src="img/robothinks.jpg"
+            alt="Description of image"
+            width="330"
+            height="250"
+            id="image3"
+          />
+        </div>
+        <div class="about-description">
+          <image
+            src="img/profile.jpg"
+            lt="Description of image"
+            width="330"
+            height="250"
+            class="profile-image"
+          ></image>
+          <br /><br />
+          <h3>Hello, my name is <b>Nathaniel Hernandez</b>.</h3>
+          <br />
+          <h5>
+            I am a back-end developer currently pursuing a Bachelor of Computer
+            Science at ICCT Colleges. I have a strong foundation in programming
+            and am a fast learner who adapts quickly to new technologies. I have
+            intermediate skills in languages such as C++, Python, and web
+            development, and I can work with databases.
+          </h5>
+          <br />
+          <h5>
+            I am passionate about building an applications and other software
+            projects. I actively participate in competitions to test my skills
+            and knowledge, and I attend events to expand my expertise and
+            network.
+          </h5>
+        </div>
+      </div>
     </div>
 
     <script scr="app.js"></script>
-
   </body>
-
 </html>
