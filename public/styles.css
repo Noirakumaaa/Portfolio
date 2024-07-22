@@ -103,14 +103,18 @@ html {
     max-width: 70%;
     height: auto;
     object-fit: contain;
-    transform: rotate(-13deg);
+    
 }
 .main-image-profile {
     border-radius: 2rem;
     height: 25rem;
     width: 100%;
+    transform: rotate(-13deg);
   }
-
+.main-image-profile:hover{
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 1rem 2rem 1rem 0 rgb(91, 209, 248);
+}
 /* CSS */
 .button-19 {
   appearance: button;
@@ -226,6 +230,11 @@ button:hover {
   overflow: hidden;
   display: block;
   transform: rotate(-5deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#image1:hover {
+  transform: scale(1.8) translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #image2 {
@@ -233,12 +242,22 @@ button:hover {
   overflow: hidden;
   display: block;
   transform: rotate(10deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#image2:hover {
+  transform: scale(1.8) translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 #image3 {
   border-radius: 1rem;
   overflow: hidden;
   display: block;
   transform: rotate(-12deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#image3:hover {
+  transform: scale(1.8) translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 .about-description {
   display: flex;
@@ -264,7 +283,7 @@ button:hover {
 
 .project-cointainer {
 
-    height: calc(60rem - 1rem);
+    height: calc(70rem - 1rem);
     background: linear-gradient(to bottom, #0096c7, #00b4d8);
     width: 100%;
     display: flex;
@@ -280,9 +299,10 @@ button:hover {
     width: 50%;
     height: 50%;
     padding: 2rem;
-    font-family: "Roboto Slab", serif;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
     font-optical-sizing: auto;
-    font-weight: 250;
+    font-weight: 1;
     font-style: normal;
     word-spacing: 0.3rem;
 }
@@ -311,9 +331,10 @@ button:hover {
   width: 50%;
   height: 50%;
   padding: 1rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
   font-optical-sizing: auto;
-  font-weight: 250  ;
+  font-weight: 1;
   font-style: normal;
   word-spacing: 0.3rem;
 }
@@ -324,69 +345,61 @@ button:hover {
     width:70%;
     transform: rotate(14deg);
 }
+
+.robobloom:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 3rem 3rem 3rem 3rem rgba(5, 205, 38, 0.2);
+}
 .anita {
   border-radius: 2rem;
-  height: 27rem;
-  width: 60%;
-  object-fit: contain;
+  height: 23rem;
+  width: 15rem;
   transform: rotate(-8deg);
+  margin: 1rem;
+}
+
+.anita:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 5rem 5rem 5rem 5rem rgba(130, 1, 173, 0.2);
 }
 
 .contact-container {
-  height: calc(40rem-1rem);
-  width: 100%; 
-}
-.inputbox {
-  border: solid;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  height: 10rem;
+  width: 100%; 
+
+}
+
+.icons {
+  border: solid;
+  border-radius: 70%;
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+}
+.github {
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
-  flex-direction: column;
-  height: 30rem;
-  width: 50%;
+  flex-direction: row;
+  padding: 2rem;
 }
-form {
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.facebook {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
 }
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
+.linkedin {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-sizing: border-box;
-}
-
-textarea {
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
 
 @media (max-width: 1024px) {
     body {
