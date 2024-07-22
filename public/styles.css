@@ -76,7 +76,6 @@ body, html {
 }
 
 .main-description {
-  border: solid;
   height: 100%;
   width: 50%;
 
@@ -97,11 +96,9 @@ body, html {
     align-items: center;
     height: 100%;
     width: 50%;
-    border: solid;
 }
 .main-image {
   border-radius: 1rem;
-  border: solid;
   overflow: hidden;
   display: block;
   width: 50%;
@@ -206,7 +203,6 @@ button:hover {
 }
 
 .about-image {
-  border: solid;
   display: flex;
   height: auto; /* Change to auto to allow for flexible height */
   width: 50%;
@@ -242,7 +238,6 @@ button:hover {
   transform: rotate(-12deg);
 }
 .about-description {
-    border: solid;
     display: flex;
     width: 50%;
     height: 100%; /* Change to auto to allow for flexible height */
