@@ -483,12 +483,23 @@ button:hover {
         font-size: 0.8rem;
         font-weight: 1;
       }
+      .project-r1-c1 {
+        font-size: 0.9rem;
+      }
 }
 
 
 @media (max-width: 768px) {
     body {
         width: 100%;
+      }
+      .contact-container {
+        height: 1rem;
+        margin-top: 1rem;
+      }
+      .icons {
+        height: 2rem;
+        width: 2rem;
       }
       .nav-container {
         width: 100%;
@@ -503,6 +514,8 @@ button:hover {
         font-size: 0.5rem;
       }
       .main-container {
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         height: 20rem;
       }
@@ -567,6 +580,12 @@ button:hover {
         height: 40rem;
         font-size: 0.6rem;
       }
+      .project-r1-c1 {
+        font-size: 0.7rem;
+      }
+      .project-r2-c2 {
+        font-size: 0.7rem;
+      }
       .robobloom {
         height: 13rem;
       }
@@ -574,6 +593,7 @@ button:hover {
       .anita {
 
         height: 15rem;
+        width: 10rem;
       }
 }
 
@@ -581,6 +601,12 @@ button:hover {
 @media (max-width: 575.98px) {
     body {
         width: 100%;
+      }
+      
+      .icons  {
+        margin: -2rem;
+        height: 1.5rem;
+        width: 1.5rem;
       }
       .nav-container {
         width: 100%;
@@ -659,13 +685,20 @@ button:hover {
         font-size: 0.4rem;
         font-weight: 1;
       }
+      .project-r1-c1 {
+        font-size: 0.5rem;
+      }
+      .project-r2-c2 {
+        font-size: 0.5rem;
+      }
       .robobloom {
-        height: 5rem;
+        height: 9rem;
       }
 
       .anita {
 
         height: 10rem;
+        width: 7rem;
       }
   }
   
