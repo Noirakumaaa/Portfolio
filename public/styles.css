@@ -279,7 +279,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: calc(80rem - 60px);
+    height: calc(55rem - 60px);
   }
 }
 @media (max-width: 768px) {
