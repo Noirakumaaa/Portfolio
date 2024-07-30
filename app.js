@@ -20,7 +20,7 @@ app.post('/contact', async (req, res) => {
         `Message from ${name}`,
         `From: ${email}\n\n${message}`
       );
-      res.status(200).json({ message: 'Email sent successfully.' });
+      res.status(200);
     } catch (error) {
       console.error('Error sending email:', error);
       res.status(500).json({ message: 'Failed to send email.' });
