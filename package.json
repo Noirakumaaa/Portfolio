@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Noirakumaaa/Portfolio/issues"
   },
-  "homepage": "https://github.com/Noirakumaaa/Portfolio#readme"
+  "homepage": "https://github.com/Noirakumaaa/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
